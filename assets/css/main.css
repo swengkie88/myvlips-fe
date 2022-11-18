@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-container{
+    @apply container mx-auto px-4;
+}
+
+.heading3-blue{
+    @apply font-bold text-xl text-[#297ACC];
+}
